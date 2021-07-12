@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Animate On Scroll - Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Covid-19</title>
+    <link rel="shortcut icon" href="assets/img/covid logo.png" />
+  </head>
+  <body>
+    <!-- ==================== NAVBAR START ==================== -->
+
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/covid logo.png" alt="" width="39" height="39" class="d-inline-block align-text-center" />
+          COVID-19
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Informasi </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Pelaporan Mandiri</a></li>
+                <li><a class="dropdown-item" href="#">Daftar Rumah Sakit Rujukan</a></li>
+                <li><a class="dropdown-item" href="#">Tim Pakar</a></li>
+                <li><a class="dropdown-item" href="#">Penanganan Kesehatan</a></li>
+                <li><a class="dropdown-item" href="#">Edukasi</a></li>
+                <li><a class="dropdown-item" href="#">Vaksinasi COVID-19</a></li>
+                <li><a class="dropdown-item" href="#">Kementrian/Lembaga</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Data </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Peta Sebaran</a></li>
+                <li><a class="dropdown-item" href="#">WNA</a></li>
+                <li><a class="dropdown-item" href="#">Peta Risiko</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Peraturan </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Protokol</a></li>
+                <li><a class="dropdown-item" href="#">Regulasi</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Bantuan Sosial </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Informasi Bansos</a></li>
+                <li><a class="dropdown-item" href="#">Distribusi Bansos</a></li>
+              </ul>
+            </li>
+
+            <button class="btn btn-outline-success" type="button">Kontak</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== NAVBAR END ==================== -->
+
+    <!-- ==================== JUMBOTRON ==================== -->
+
+    <section class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/img/virus_blender.png" alt="" />
+          </div>
+          <div class="col-md-6">
+            <h1 >
+              <span class="animate__animated animate__fadeIn animate__slow"> Waspadai Bahaya </span>
+              <br />
+              <span class="animate__animated animate__fadeIn animate__delay-1s animate__slow"> Virus Corona</span>
+            </h1>
+            <p class="description animate__animated animate__fadeIn animate__delay-1s animate__slow"> Virus Corona atau severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit karena infeksi virus ini disebut COVID-19. Virus Corona bisa menyebabkan...</p>
+            <button type="button" class="btn btn-block animate__animated animate__fadeIn animate__delay-1s animate__slow">Selengkapnya</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== JUMBOTRON END ==================== -->
+
+    <!-- ==================== SECTION 1 ==================== -->
+
+    <section class="section-one">
+      
+      <div class="container" >
+        <div class="row">
+          <div class="col-md-7" data-aos="fade-in">
+            <h2>
+              Bagaimana Virus <br />
+              Menyebar?
+            </h2>
+            <p>Virus Corona paling sering menyebar dari orang yang terinfeksi melalui:</p>
+            <ul>
+              <li>Tetesan pernapasan saat Anda batuk atau bersin</li>
+              <li>Kontak langsung dengan orang lain, seperti menyentuh atau berjabat tangan</li>
+              <li>Menyentuh sesuatu yang mengandung virus, lalu menyentuh mata, hidung, atau mulut Anda sebelum mencuci tangan</li>
+            </ul>
+          </div>
+          <div class="col-md-5" data-aos="fade-in" data-aos-delay="250">
+            <img src="assets/img/karakter1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 1 END ==================== -->
+
+    <!-- ==================== SECTION 2 ==================== -->
+
+    <section class="section-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>
+              Bagaimana Mencegah <br />
+              Virus Corona?
+            </h2>
+            <h4>Cara terbaik untuk mencegah penyebaran Virus Corona adalah dengan:</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Mencuci Tangan</p>
+              <img src="assets/img/cuci_tangan.png" class="card-img" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Sering-seringlah mencuci tangan dengan sabun dan air setidaknya selama 20 detik</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Hindari Menyentuh</p>
+              <img src="assets/img/tidak_menyentuh.png" class="card-img-top" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Hindari menyentuh mata, hidung, atau mulut Anda, terutama dengan tangan yang tidak dicuci</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Menjaga Jarak</p>
+              <img src="assets/img/menjaga_jarak.png" class="card-img-top" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Hindari kontak dekat dengan orang yang sakit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Menggunakan Masker</p>
+              <img src="assets/img/menggunakan_masker.png" class="card-img" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Gunakan masker untuk mengurangi penyebaran virus</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Bersihkan dan Desinfektan</p>
+              <img src="assets/img/desinfektan.png" class="card-img-top" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Bersihkan dan disinfeksi benda dan permukaan yang sering disentuh, seperti mainan, perangkat elektronik, dan gagang pintu</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" data-aos="fade-up">
+              <p class="card-title">Dirumah Aja</p>
+              <img src="assets/img/dirumah_aja.png" class="card-img-top" alt="" style="width: 80%" />
+              <div class="card-body">
+                <p class="card-text">Tetaplah di rumah jika Anda merasa kurang sehat untuk           menghindari penyebaran.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 2 END ==================== -->
+
+    <!-- ==================== SECTION 3 ==================== -->
+
+    <section class="section-three">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5" data-aos="fade-in">
+            <img src="assets/img/karakter2.png" alt="" />
+          </div>
+          <div class="col-md-7" data-aos="fade-in" data-aos-delay="250">
+            <h2>
+              Seperti Apa Gejala <br />
+              Virus Corona?
+            </h2>
+            <p>
+              Gejala awal infeksi virus Corona atau COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat. Penderita
+              dengan gejala yang berat bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas, dan nyeri dada. Gejala-gejala tersebut muncul ketika tubuh bereaksi melawan virus Corona.
+            </p>
+          </div>
+        </div>
+
+        <h4>3 gejala umum yang bisa menandakan seseorang terinfeksi virus Corona:</h4>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-up">
+            <p class="title">Batuk Kering</p>
+            <img src="assets/img/batuk.png" alt="" />
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <p class="title">Demam (suhu di atas 38°C )</p>
+            <img src="assets/img/demam.png" alt="" />
+          </div>
+          <div class="col-md-4" data-aos="fade-up">
+            <p class="title">Sesak Napas</p>
+            <img src="assets/img/sesak.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 3 END ==================== -->
+
+    <!-- ==================== SECTION 4 ==================== -->
+
+    <section class="section-four">
+      <div class="container">
+        <h2>Update Terakhir</h2>
+        <h4>Berikut adalah laporan perkembangan COVID-19 saat ini</h4>
+        
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="select-box">
+              <div class="options-container">
+                <div class="option">
+                  <label>Seluruh Wilayah</label>
+                </div>
+                <div class="option">
+                  <label>Jakarta</label>
+                </div>
+                <div class="option">
+                  <label>Tangerang</label>
+                </div>
+                <div class="option">
+                  <label>Bekasi</label>
+                </div>
+                <div class="option">
+                  <label>Bogor</label>
+                </div>
+                <div class="option">
+                  <label>Depok</label>
+                </div>
+              </div>
+
+              <div class="selected">Pilih Wilayah</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <div class="card">
+              <p class="card-title">Positif</p>
+              <p class="card-text-positive">1.419.455</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <p class="card-title">Sembuh</p>
+              <p class="card-text-recover">1.419.455</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <p class="card-title">Meninggal</p>
+              <p class="card-text-dead">1.419.455</p>
+            </div>
+          </div>
+        </div>
+
+        <h2>Daftar Rumah Sakit rujukan</h2>
+
+        <div class="table-responsive">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Nama Rumah Sakit</th>
+                <th>Provinsi</th>
+                <th>Telepon</th>
+                <th>Alamat</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>RS Bhayangkara Tk. I R. Said Sukanto</td>
+                <td>DKI Jakarta</td>
+                <td>021-8093288</td>
+                <td>Jl. Raya Bogor, Kramat Jati, Kec. Kramat Jati, Kota Jakarta Timur, DKI Jakarta</td>
+              </tr>
+              <tr>
+                <td>RSPAD Gatot Soebroto</td>
+                <td>DKI Jakarta</td>
+                <td>021-371008</td>
+                <td>Jl. Abdul Rahman Saleh Raya No. 24, Senen, Kec. Senen, Kota Jakarta Pusat, DKI Jakarta</td>
+              </tr>
+              <tr>
+                <td>RSUP Persahabatan</td>
+                <td>DKI Jakarta</td>
+                <td>021-22472222</td>
+                <td>Jl. Persahabatan Raya No. 1, Pisangan Timur, Kec. Pulo Gadung, Kota Jakarta Timur, DKI Jakarta</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <button type="button" class="btn btn-block">Selengkapnya</button>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 4 END ==================== -->
+
+    <!-- ==================== SECTION 5 ==================== -->
+
+    <section class="section-five">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-2">
+            <img src="assets/img/hmif.png" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/infocuplogo1.png" alt="" />
+          </div>
+          <div class="col-md-2">
+            <img src="assets/img/infocuplogo.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION 5 END ==================== -->
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span">© 2021 Covid-19. All rights reserved</span>
+      </div>
+    </footer>
+
+    <!-- ==================== FOOTER END ==================== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

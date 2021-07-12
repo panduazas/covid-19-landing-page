@@ -1,0 +1,642 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+/* ==================== Navbar ==================== */
+nav {
+  background-color: #e4e5f2;
+}
+nav .navbar-brand {
+  font-size: 28px;
+  font-weight: bold;
+  color: #8c52b8 !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(140,82,184)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+nav .navbar-toggler {
+  color: #8c52b8 !important;
+}
+
+nav ul li {
+  font-size: 18px;
+  color: #8c52b8 !important;
+}
+
+nav .dropdown-item:hover {
+  color: white;
+  background-color: #8c52b8;
+  opacity: 50%;
+}
+
+nav .dropdown-item {
+  color: #8c52b8;
+  padding: 10px;
+}
+
+nav .dropdown:hover > .dropdown-menu {
+  display: block;
+  border-radius: 10px;
+}
+
+nav ul button {
+  border: 2px solid #cd4782 !important;
+  border-radius: 15px !important;
+  color: #cd4782 !important;
+  font-size: 18px !important;
+}
+
+nav ul button:hover {
+  background-color: #cd4782 !important;
+  color: #e4e5f2 !important;
+}
+
+/* ==================== Navbar End ==================== */
+
+/* ==================== Jumbotron ==================== */
+
+.jumbotron {
+  background: linear-gradient(#e4e5f2, #f5f6f8);
+  padding-bottom: 50px;
+}
+
+.jumbotron .container img {
+  width: 100%;
+  margin-top: 92px;
+}
+
+.jumbotron h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #8c52b8;
+}
+
+.jumbotron h1,
+span .animate__animated.animate__fadeIn {
+  --animate-duration: 1s;
+  --animate-delay: 0.5s;
+}
+
+.jumbotron p,
+.description .animate__animated.animate__fadeIn {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+}
+
+.jumbotron button,
+.btn .btn-block .animate__animated .animate__fadeIn {
+  --animate-duration: 1s;
+  --animate-delay: 1.5s;
+}
+
+.jumbotron p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #9a81ad;
+}
+
+.jumbotron button {
+  background-color: #cd4782;
+  color: #f5f6f8;
+  border-radius: 15px;
+  width: 178px;
+  height: 45px;
+  margin-top: 30px;
+}
+
+.jumbotron button:hover {
+  color: #ffffff;
+  background-color: #9e3e68;
+}
+
+/* ==================== Jumbotron End ==================== */
+
+/* ==================== Section 1 ==================== */
+.section-one {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+}
+
+.section-one h2 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8c52b8;
+}
+.section-one p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #9a81ad;
+}
+.section-one ul li {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #9a81ad;
+}
+.section-one img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* ==================== Section 1 End ==================== */
+
+/* ==================== Section 2 ==================== */
+
+.section-two h2 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8c52b8;
+  text-align: center;
+}
+
+.section-two h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9a81ad;
+  text-align: center;
+}
+
+.section-two .card {
+  margin: auto;
+  margin-top: 50px;
+  width: 90%;
+  height: 560px;
+  text-align: center;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+}
+
+.section-two .card .card-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #8c52b8;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.section-two .card img {
+  margin: auto;
+}
+
+.section-two .card .card-text {
+  margin-top: 30px;
+  color: #9a81ad;
+  font-size: 18px;
+}
+
+/* ==================== Section 2 End ==================== */
+
+/* ==================== Section 3 ==================== */
+
+.section-three {
+  background-color: #f5f6f8;
+  padding-bottom: 50px;
+  margin-top: 100px;
+}
+
+.section-three img {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.section-three h2 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8c52b8;
+}
+
+.section-three p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #9a81ad;
+}
+
+.section-three h4 {
+  margin-top: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9a81ad;
+  text-align: center;
+}
+
+.section-three .title {
+  text-align: center;
+  font-weight: bold;
+  color: #8c52b8;
+  margin-bottom: 20px;
+}
+
+.section-three .col-md-4 img {
+  width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+/* ==================== Section 3 End ==================== */
+
+/* ==================== Section 4 ==================== */
+
+.section-four h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8c52b8;
+}
+
+.section-four h4 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #9a81ad;
+  text-align: center;
+}
+
+.section-four .col-md-4 {
+  margin-top: 50px;
+}
+
+/* ===================================== */
+.select-box {
+  font-size: 18px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-box .options-container {
+  background: #ffffff;
+  border: 2px solid #cd4782;
+  color: #cd4782;
+  max-height: 0;
+  width: 100%;
+  opacity: 0;
+  border-radius: 15px;
+  overflow: hidden;
+
+  order: 1;
+}
+
+.selected {
+  border: 2px solid #cd4782;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 5px;
+  color: #cd4782;
+  position: relative;
+
+  order: 0;
+}
+
+.selected::after {
+  content: '';
+  background: url('../img/Untitled-1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  height: 100%;
+  width: 32px;
+  right: 10px;
+  top: 10px;
+
+  transition: all 0.4s;
+}
+
+.select-box .options-container.active {
+  max-height: 240px;
+  opacity: 1;
+  overflow-y: scroll;
+}
+
+.select-box .options-container.active + .selected::after {
+  transform: rotateX(180deg);
+  top: -6px;
+}
+
+.select-box .options-container::-webkit-scrollbar {
+  width: 8px;
+  background: #ffffff;
+  border-radius: 0 15px 15px 0;
+}
+
+.select-box .options-container::-webkit-scrollbar-thumb {
+  background: #cd4782;
+  border-radius: 0 15px 15px 0;
+}
+
+.select-box .option,
+.selected {
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.select-box .option:hover {
+  background: #cd4782;
+  color: #ffffff;
+}
+
+.select-box label {
+  cursor: pointer;
+}
+
+/* ===================================== */
+
+.section-four .card {
+  margin-top: 50px;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.section-four .card-title {
+  font-weight: bold;
+  color: #9a81ad;
+  text-align: center;
+}
+
+.section-four .card-text-positive {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #8c52b8;
+}
+
+.section-four .card-text-recover {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #97bc71;
+}
+
+.section-four .card-text-dead {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #cd4782;
+}
+
+/* ===== Table ===== */
+
+.section-four table {
+  margin-top: 30px;
+  border: 1px solid #8c52b8;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+.table-bordered {
+  border: solid #8c52b8 1px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid #8c52b8;
+}
+
+.table-bordered th {
+  color: #ffffff;
+  text-align: center;
+  background-color: #8c52b8;
+  border-top: none;
+}
+
+.table-bordered td {
+  color: #8c52b8;
+}
+
+.table-bordered th:first-child {
+  -moz-border-radius: 15px 0 0 0;
+  -webkit-border-radius: 15px 0 0 0;
+  border-radius: 15px 0 0 0;
+}
+
+.table-bordered th:last-child {
+  -moz-border-radius: 0 15px 0 0;
+  -webkit-border-radius: 0 15px 0 0;
+  border-radius: 0 15px 0 0;
+}
+
+.table-bordered th:only-child {
+  -moz-border-radius: 15px 15px 0 0;
+  -webkit-border-radius: 15px 15px 0 0;
+  border-radius: 15px 15px 0 0;
+}
+
+.table-bordered tr:last-child td:first-child {
+  -moz-border-radius: 0 0 0 15px;
+  -webkit-border-radius: 0 0 0 15px;
+  border-radius: 0 0 0 15px;
+}
+
+.table-bordered tr:last-child td:last-child {
+  -moz-border-radius: 0 0 15px 0;
+  -webkit-border-radius: 0 0 15px 0;
+  border-radius: 0 0 15px 0;
+}
+
+.section-four button {
+  background-color: #cd4782;
+  color: #f5f6f8;
+  border-radius: 15px;
+  width: 178px;
+  height: 45px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.section-four button:hover {
+  color: #ffffff;
+  background-color: #9e3e68;
+}
+
+/* ==================== Section 4 End ==================== */
+
+/* ==================== Section 5 ==================== */
+
+.section-five {
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: #f5f6f8;
+}
+.section-five img {
+  margin-top: 50px !important;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+/* ==================== Section 5 End ==================== */
+
+/* ==================== Footer ==================== */
+
+footer {
+  background-color: #f5f6f8;
+  text-align: center;
+  color: #cd4782;
+  font-size: 16px;
+}
+
+/* ==================== Footer End ==================== */
+
+/* ======================================== i Pad View ======================================== */
+@media (min-width: 768px) {
+  .jumbotron .container img {
+    width: 100%;
+    margin-top: 193;
+  }
+  .jumbotron h1 {
+    margin-top: 153px;
+  }
+
+  .section-two .card {
+    height: 570px;
+  }
+}
+
+/* ======================================== i Pad View End ======================================= */
+
+/* ======================================== Smartphone View ======================================== */
+
+@media (max-width: 767px) {
+  /* ========== Jumbotron ========== */
+  .jumbotron .container {
+    padding: 20px;
+  }
+
+  .jumbotron h1 {
+    text-align: center;
+  }
+
+  .jumbotron p {
+    margin-bottom: 30px;
+  }
+
+  .jumbotron button {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  /* ========== Jumbotron End ========== */
+
+  /* ========== Section 1 ========== */
+  .section-one .container {
+    padding: 20px;
+  }
+
+  .section-one h2 {
+    margin-top: 30px;
+  }
+
+  .section-one img {
+    margin-top: 30px;
+  }
+
+  /* ========== Section 1 End ========== */
+
+  /* ========== Section 2 ========== */
+
+  .section-two .container {
+    padding: 20px;
+  }
+
+  /* ========== Section 2 End ========== */
+
+  /* ========== Section 3 ========== */
+
+  .section-three .container {
+    padding: 20px;
+  }
+
+  .section-three h2 {
+    margin-top: 50px;
+  }
+
+  .section-three img {
+    margin-top: 50px;
+  }
+
+  /* ========== Section 3 End ========== */
+
+  /* ========== Section 4 ========== */
+
+  .section-four .container {
+    padding: 20px;
+  }
+
+  /* ========== Section 4 End ========== */
+}
+
+/* ======================================== Smartphone View End ======================================== */
+
+/* ======================================== Desktop View ======================================== */
+
+@media (min-width: 992px) {
+  /* ========== Navbar ========== */
+  nav li a {
+    margin-inline-end: 20px;
+  }
+
+  nav ul button {
+    width: 111px;
+    height: 40px;
+  }
+
+  /* ========== Navbar End ========== */
+
+  /* ========== Jumbotron ========== */
+
+  .jumbotron h1 {
+    margin-top: 193px;
+    font-size: 50px;
+    text-align: start;
+  }
+
+  .jumbotron p {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #9a81ad;
+  }
+
+  /* ========== Jumbotron End ========== */
+
+  /* ========== Section 1 ========== */
+
+  .section-one h2 {
+    font-size: 40px;
+  }
+
+  /* ========== Section 1 End ========== */
+
+  /* ========== Section 2 ========== */
+
+  .section-two h2 {
+    font-size: 40px;
+  }
+
+  /* ========== Section 2 End ========== */
+
+  /* ========== Section 3 ========== */
+
+  .section-three h2 {
+    font-size: 40px;
+  }
+
+  /* ========== Section 3 End ========== */
+
+  /* ======================================== Desktop View End ======================================== */
+}
